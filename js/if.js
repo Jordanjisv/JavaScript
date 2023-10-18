@@ -30,13 +30,13 @@ tijeraBtn.addEventListener("click", () => {
 
 function juego(opcionUsuario) {
 
-    usuarioImg.src = "../img/if/" + opcionUsuario + ".png";
+    usuarioImg.src = "../img/if/" +opcionUsuario+ ".png";
 
     resultado.innerHTML = "JUGANDO";
 
     const intervalo = setInterval(function(){
         const opcionMaquina = calcOpcionMaquina();
-        maquinaImg.src = "../img/if/" + opcionMaquina + ".png";
+        maquinaImg.src = "../img/if/" +opcionMaquina+ ".png";
     }, 100);
 
     setTimeout(function () {
